@@ -1,5 +1,5 @@
 Order Processing System
-+++++++++++++++++++++++++
+++++++++++++++++++++++++
 
 This Java-based backend system simulates an event-driven architecture for processing e-commerce orders. It ingests events from a JSON file, updates order states accordingly, and notifies observers of significant changes like status updates.
 

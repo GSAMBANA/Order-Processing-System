@@ -53,4 +53,18 @@ order-processing-system/
 └── pom.xml
 
 
+ File Name                 Purpose                          
+
+Order.java              -> Represents order state           
+OrderStatus.java        -> Enum for status values           
+Event.java              -> Abstract base for events         
+OrderPlacedEvent.java ->Handles order placement          
+PaymentReceivedEvent.java ->Handles payment event         
+Observer.java        -> Interface for notifications     
+LoggerObserver.java    -> Logs order updates               
+EventProcessor.java    -> Core logic for event handling    
+Main.java              ->Entry point                      
+README.md             -> Documentation                    
+            
+
 
